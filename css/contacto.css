@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contacto{
+    margin-top: 100px;
+}
+.contacto-inicio p{
+    font-size: 60px;
+}
+.eslogan{
+    font-size: 30px;
+}
