@@ -6,6 +6,7 @@
 	<title>Politecnico</title>
 
 		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../css/fotos.css">
 
 </head>
 <body>
@@ -21,18 +22,34 @@
 
 		<nav>
 			<ul>
-				<li><a href="../">Inicio</a></li>
+				<li><a href="../index.php">Inicio</a></li>
 				<li><a href="areas.php">Area</a></li>
 				<li><a href="contacto.php">Contactos</a></li>
 				<li><a href="actividades.php">Actividades</a></li>
-				<li><a href="historia.php">historia</a></li>
+				<li><a href="historia.php">Historia</a></li>
+				<li><a href="../login.php">Login</a></li>
 			</ul>
 		</nav>
 
 	</div>
 </div>
-
-</header>
 	
+</header>
+
+	<div class="fotos-areas">
+		<img src="../img/contabilidad.jpeg" width="60%" height="40%">
+	</div>
+	<div class="fotos-areas">
+		<img src="../img/turismo.jpeg" width="60%" height="40%">
+	</div>
+	<div class="fotos-areas">
+		<img src="../img/informatica.jpeg" width="60%" height="40%">
+
+	</div>
+	<div class="fotos-areas">
+		<img src="../img/enfermeria.jpeg" width="60%" height="40%">
+	</div>
+
+
 </body>
 </html>

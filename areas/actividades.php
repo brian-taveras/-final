@@ -1,85 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Actividades</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Politecnico</title>
+
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../css/fotos.css">
+
 </head>
 <body>
-<style type="text/css">
 
-			
-			* {
-				margin:0px;
-				padding:0px;
-			}
-			
-			#header {
-				margin:auto;
-				width:500px;
-				font-family:Arial, Helvetica, sans-serif;
-			}
-			
-			ul, ol {
-				list-style:none;
-			}
-			
-			.nav > li {
-				float:left;
-			}
-			
-			.nav li a {
-				background-color:#000;
-				color:#fff;
-				text-decoration:none;
-				padding:25px 12px;
-				display:block;
-			}
-			
-			.nav li a:hover {
-				background-color:#E8BE14;
-			}
-			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
-			
-			.nav li:hover > ul {
-				display:block;
-			}
-			
-			.nav li ul li {
-				position:relative;
-			}
-			
-			.nav li ul li ul {
-				right:-240px;
-				top:5px;
-			}
-			
-		</style>
-	</head>
+	    <!--header - menu-->
+		<header>
 
-	<body>
-		<div id="header">
-			<ul class="nav">
-				<li><a href="Politecnico.html">Inicio</a></li>
-				<li><a href="Historia.html">Historia</a>
-                                <li><a href="Docentes.html">Docentes</a>
-					
-					
-				</li>
-				<li><a href="Areas.html">Areas</a>
-					
-				</li>
+<div class="header-content">
+	<div class="logo">
+		<h1>Instituto Politecnico Profesora Rafaela Perez </h1>
+	</div>
+	<div class="menu">
 
-                                <li><a href="Actividades.html">Actividades</a>
-					
-				</li>
-				<li><a href="contacto.html">Contacto</a></li>
+		<nav>
+			<ul>
+				<li><a href="../index.php">Inicio</a></li>
+				<li><a href="areas.php">Area</a></li>
+				<li><a href="contacto.php">Contactos</a></li>
+				<li><a href="actividades.php">Actividades</a></li>
+				<li><a href="historia.php">Historia</a></li>
+				<li><a href="../login.php">Login</a></li>
 			</ul>
-		</div>
-	</body>
-</body>
+		</nav>
+
+	</div>
+</div>
+	
+</header>
+
+<div class="fotos-areas">
+		<img class="logo-actividades" src="../img/logo.jpeg" width="60%" height="40%">
+	</div>
+
+	<div class="fotos-areas">
+		<img src="../img/actividad1.jpeg" width="60%" height="40%">
+	</div>
+	<div class="fotos-areas">
+		<img src="../img/actividad2.jpeg" width="60%" height="40%">
+	</div>
+	<div class="fotos-areas">
+		<img src="../img/actividad3.jpeg" width="60%" height="40%">
+
+	</div>
+	<div class="fotos-areas">
+		<img src="../img/actividad4.jpeg" width="60%" height="40%">
+	</div>
+
+
 </body>
 </html>

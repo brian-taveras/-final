@@ -4,10 +4,13 @@
 }
 .contacto{
     margin-top: 100px;
+   
+
 }
-.contacto-inicio p{
-    font-size: 60px;
+.contacto-inicio{
+    font-size: 50%;
 }
+
 .eslogan{
-    font-size: 30px;
+    font-size: 60px;
 }

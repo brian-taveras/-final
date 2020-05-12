@@ -1,0 +1,22 @@
+body{
+    background-color: #BDC3C7;
+}
+.fotos-areas{
+    position: relative;
+    margin-top: 3%;
+    width: 40%;
+    height: 40%;
+}
+img{
+    position: relative;
+    padding: 15px 5px 15px 5px;
+    margin: 50px;
+    float: left;
+    width: 600px;
+    display: flex;
+    text-align: center;
+}
+.logo-actividades{
+    position: relative;
+    text-align: center;
+}
